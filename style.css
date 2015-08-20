@@ -36,16 +36,48 @@
 	margin: 132px auto;
 }
 
+#circ-container{
+	width: 500px;
+	margin: 150px auto;
+}
+
 .circle{
 	border-radius: 50%;
+	width:160px;
+	height: 160px;
 	border: 4px solid black;
-	padding: 20px;
+	/*padding-top: 50px;*/
+	margin: 20px 35px;
 	float: left;
-	font-size: 120px;
+	font-size: 60px;
 	text-align: center;
 }
 
+.circle p{
+	/*display: inline;
+	vertical-align: middle;
+	text-align: center;*/
+	display: inline;
+	 position: relative;
+  	 top: 36px;
+}
+
 .circle:hover{
-	background-color: red;
-	opacity: 0.4;
+	background-color: rgba(215, 44, 44, 0.3);
+}
+
+.screenshot{
+
+	color: rgba(255,255,255,0);
+	width:150px;
+	height:150px;
+	border: 1px solid black;
+	border-radius: 4%;
+	float: left;
+	background-size: cover;
+	background-image: url("img/ss2.png");
+
+}
+.screenshot:hover{
+	color: rgba(255,255,255,1);
 }
